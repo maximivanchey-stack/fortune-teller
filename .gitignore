@@ -1,0 +1,23 @@
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Временные файлы
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Виртуальное окружение (если вдруг создадите)
+venv/
+.env/
+.venv/

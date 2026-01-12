@@ -1,23 +1,49 @@
 # Python кэш
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Тесты и кэш тестирования
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Опционально: IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS системные файлы
+.DS_Store
+
+# Виртуальное окружение (ОБЯЗАТЕЛЬНО!)
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Логи
+*.log
 
 # Временные файлы
 *.tmp
 *.temp
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Виртуальное окружение (если вдруг создадите)
-venv/
-.env/
-.venv/
+# Конфигурационные файлы с секретами
+config.ini
+secrets.json
+.env.local
+*.key
+*.pem

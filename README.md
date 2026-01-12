@@ -11,9 +11,9 @@
 ## Структура
 fortune-teller/
 
-├── README.md
-
 ├── .gitignore 
+
+├── README.md
 
 └── fortune.py
 
